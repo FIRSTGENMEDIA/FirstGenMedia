@@ -1,10 +1,10 @@
 :root{
-    --switch-pos :5vmin ;
+    --switch-pos : 0vmin ;
     --switch-bg : white;
     --switch-fg : black;
     --elements-fg :  black;
-    --elements-bg : white;
-    --body-bg : white;
+    --elements-bg :  white;
+    --body-bg :white;
 
 }
 * {
