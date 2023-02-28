@@ -202,26 +202,23 @@ h3{
 #launch{
     width: 80%;
     padding: 10%;
-    transition:3s;
-    transition-property: opacity;
     opacity: 1;
-    font-size: 3.6vmin; 
+    font-size: 3vmin; 
 }
 #grow{
     width: 80%;
+    top: 100px;
     padding: 10%;
-    transition: 3s;
-    transition-property: opacity;
-    opacity: 0;
-    font-size: 3.6vmin; 
+    opacity: 1;
+    font-size: 3vmin; 
 }
 #expand{
     width: 80%;
+    top: 200px;
     padding: 10%;
-    transition: 3s;
-    transition-property: opacity;
-    opacity: 0;
-    font-size: 3.6vmin; 
+    opacity: 1;
+    font-size: 3vmin; 
+    z-index: 3;
 }
 .empty{
     position: absolute;
