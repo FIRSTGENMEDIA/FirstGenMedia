@@ -110,37 +110,6 @@ transition:1s;
     }
     
     
-    </script>
-    <script>
-        let num = 1
-
-        function reverse(){
-            let e1 = document.getElementById("launch")
-            let e2 = document.getElementById("grow")
-            let e3 = document.getElementById("expand")
-            if (num == 1){
-                e2.style.opacity = "0"
-                e3.style.opacity = "0"
-                e1.style.opacity = "1"
-            }
-            if (num == 2){
-                e2.style.opacity = "1"
-                e3.style.opacity = "0"
-                e1.style.opacity = "0"
-            }
-            if (num == 3){
-                e2.style.opacity = "0"
-                e3.style.opacity = "1"
-                e1.style.opacity = "0"
-            }
-            
-            num+=1
-            if (num > 3){
-                num = 1
-            }
-        }
-        setInterval(reverse,4000)
-
-        </script>
+	    </script>
     </body>     
 </html>
