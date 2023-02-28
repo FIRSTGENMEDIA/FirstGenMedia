@@ -208,14 +208,14 @@ h3{
 }
 #grow{
     width: 80%;
-    top: 100px;
+    top: 16vh;
     padding: 10%;
     opacity: 1;
     font-size: 3vmin; 
 }
 #expand{
     width: 80%;
-    top: 200px;
+    top: 16vh;
     padding: 10%;
     opacity: 1;
     font-size: 3vmin; 
