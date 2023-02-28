@@ -193,6 +193,7 @@ p{
 }
 h3{
     padding-top: 15vmin;
+    margin-top: 10px;
     font-size: 5vmin;
     position: absolute;
     left: 50%;
