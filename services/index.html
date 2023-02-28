@@ -11,12 +11,12 @@
   font-family: 'Poppins', sans-serif;
 }
 		:root{
-			--switch-pos : 5vmin ;
-			--switch-bg : rgb(0, 0, 0);
-			--switch-fg : #ffffff;
-			--body-bg : rgb(0, 0, 0);
-			--elements-fg :  rgb(255, 255, 255);
-    		--elements-bg :  rgb(0, 0, 0);
+			--switch-pos : 0vmin ;
+			--switch-bg : white;
+			--switch-fg : black;
+			--body-bg :white;
+			--elements-fg :  black;
+    		--elements-bg :  white;
 		}
 		::-webkit-scrollbar {
 		width: 10px;
@@ -131,7 +131,7 @@
         location.replace(fgm_location)
     }  
     var r = document.querySelector(':root');
-    let bool = true
+    let bool = false
     function move_node(){
         if (bool == false) {
             r.style.setProperty('--switch-pos', '5vmin');
