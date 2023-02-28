@@ -1,7 +1,7 @@
 :root{
     --switch-pos :0vmin ;
-    --switch-bg : black;
-    --switch-fg : white;
+    --switch-bg : white;
+    --switch-fg : black;
     --elements-fg :  black;
     --elements-bg : white;
     --body-bg : white;
