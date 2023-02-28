@@ -1,10 +1,10 @@
 :root{
-    --switch-pos : 5vmin ;
-    --switch-bg : rgb(0, 0, 0);
-    --switch-fg : #ffffff;
-    --elements-fg :  rgb(255, 255, 255);
-    --elements-bg :  rgb(0, 0, 0);
-    --body-bg : rgb(0, 0, 0);
+    --switch-pos :0vmin ;
+    --switch-bg : black;
+    --switch-fg : white;
+    --elements-fg :  black;
+    --elements-bg : white;
+    --body-bg : white;
 
 }
 * {
