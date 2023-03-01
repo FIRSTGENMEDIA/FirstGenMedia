@@ -501,6 +501,12 @@ h3{
         background-size: 100% 100%;
         z-index: 9;
     }
+    
+    
+    
+    
+    
+    
     .logo::after{
         content: "FirstGenMedia";
         display: flex;
@@ -516,6 +522,8 @@ h3{
     p {
         font-size: 0.5vmin;
     }
-    
+    *{
+        width:auto;
+    }
     
   }
