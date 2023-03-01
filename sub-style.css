@@ -148,7 +148,7 @@ p{
     background-color: var(--elements-fg);
     width: 100%;
     position: relative;
-    top: 40vmin;    
+    top: 80vmin;    
     z-index: 0;
 }
 .side-part{
@@ -208,14 +208,14 @@ h3{
 }
 #grow{
     width: 80%;
-    top: 16vh;
+    top:17.5vh;
     padding: 10%;
     opacity: 1;
     font-size: 3vmin; 
 }
 #expand{
     width: 80%;
-    top: 16vh;
+    top: 35vh;
     padding: 10%;
     opacity: 1;
     font-size: 3vmin; 
@@ -486,13 +486,10 @@ h3{
     margin-bottom: 20px;
     font-size: 1.5vmin;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
     [class*="p"] {
         padding: 60px;
       font-size: 2vmin;
-    }
-    [class*="title-sub"] {
-        padding-bottom: 100px;
     }
     [class*="logo"] {
         width:30vmin;
