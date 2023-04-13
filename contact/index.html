@@ -5,6 +5,7 @@
 	<title>Contact Us | FirstGen Media</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../fonts.css">
+
 	<style>
 * {
   box-sizing: border-box;
@@ -125,12 +126,18 @@
 			cursor: pointer;
 		}
         form{
-            display: flex;
-            line-height: 10vmin;
+			margin-top: 10vh;
+			font-size: 11px;
             
         }
+		form input{
+			width: 100%;
+			color: var(--elements-fg);
+            background: transparent;
+			padding: 5px;
+            border: solid 2px var(--elements-fg);
+		}
         .mail{
-            position:absolute;
             top: 20%;
             width: 30%;
             transform: translate(-50%);
@@ -166,10 +173,9 @@
             border: solid var(--elements-fg);
         }
         .sub{
-            transform: translate(-50%);
-            position: absolute;
-            bottom: 20%;
-            left: 50%;
+			position: relative;
+			left: 50%;
+			transform: translate(-50%);
             width: 20vmin;
             padding: 10px;
             color: var(--elements-fg);
@@ -196,7 +202,13 @@
 			height: fit-content;
 			padding: 5vh;
 		}
-
+		.contact_txt{
+			width: 100%;
+			resize: none;
+			color: var(--elements-fg);
+            background: transparent;
+            border: solid 2px var(--elements-fg);
+		}
 	</style>
 </head>
 <script> 
@@ -251,12 +263,15 @@ Address: Ground Floor, Prestige Cube, Near Forum Signal, Kormangala, Bangalore 5
 		</p>
 	</div>
 	<div class="container">
-        <form action="https://formspree.io/f/mbjeygrd" method="POST">
-  <label><input type="email" name="email" class="mail">Email :</label>
-  <br>
-  
-  <label><textarea name="message" class="msg">We Want To Collaborate With FirstGen Media.
-</textarea></label>
-  <br>
-  <button type="submit" class="sub">Send</button>
-</form>
+			<form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/mbjeygrd" method="post">
+				  <label for="full-name">Full Name : </label>
+				  <input type="text" name="name" id="full-name" placeholder="First and Last" required=""><br><br>
+				  <label for="email-address">Email Address : </label>
+				  <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""><br><br>
+				  <label for="telephone">Phone Number : </label>
+				  <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555" required=""><br><br>
+				  <textarea rows="6" name="complaint" id="complaint" placeholder="Fill This Form" required="" class="contact_txt"></textarea><br><br>
+				  <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
+				<input type="submit" value="Submit" class="sub">
+			  </form>
+<script src="script.js"></script>
